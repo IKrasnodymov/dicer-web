@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #b8b8b8;
+    background-color: #1c1c1c;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #b5e853;
+    font-size: 2.5rem;
+}
+
+.github-link {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.github-link a {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.app-description {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.app-screenshots {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.app-screenshots img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.features {
+    margin-bottom: 2rem;
+}
+
+.features h2, .design-by h2 {
+    color: #b5e853;
+}
+
+.features ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.features li::before {
+    content: ">>";
+    color: #b5e853;
+    margin-right: 0.5rem;
+}
+
+.design-by {
+    margin-bottom: 2rem;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.app-store-link, .play-store-link {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+a {
+    color: #63c0f5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
