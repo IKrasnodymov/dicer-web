@@ -78,18 +78,29 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .store-link {
     display: inline-block;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .store-link:hover {
     transform: scale(1.05);
+    opacity: 0.8;
 }
 
 .store-badge {
     height: 50px; /* Adjust this value based on the actual size of your images */
     width: auto;
+    border-radius: 8px; /* Optional: adds slight rounding to the corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
 }
 
 footer {
